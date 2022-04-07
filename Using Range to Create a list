@@ -1,0 +1,15 @@
+#lets import the random library
+import random
+
+#lets use the range function to create a list. the '*' will allow us to print all the numbers within the range.
+My_list = [*range(10, 31)]
+
+#the random.shuffle method will randomize the list
+random.shuffle(My_list)
+
+#we will use the for loop with the enumerate method to iterate the list.
+
+for i, val in enumerate(My_list):
+    print(i, ",",val)
+
+
