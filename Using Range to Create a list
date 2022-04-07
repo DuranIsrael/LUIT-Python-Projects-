@@ -7,7 +7,9 @@ My_list = [*range(10, 31)]
 #the random.shuffle method will randomize the list
 random.shuffle(My_list)
 
-#we will use the for loop with the enumerate method to iterate the list.
+"""we will use the for loop with the enumerate method to iterate the list.
+The "," i the print function will allow us to seperate the numbers and their coresponding place 
+values of the list for better readability."""
 
 for i, val in enumerate(My_list):
     print(i, ",",val)
