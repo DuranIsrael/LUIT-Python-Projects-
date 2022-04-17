@@ -15,5 +15,5 @@ while  not end_of_game:
         print("Nope! Lower!")
     elif n == number:
         end_of_game = True #this implies that once the random number and the user imput matches the game will end
-        print("You got it! the number was" + number + "!")
+        print(f"You got it! the number was" + " " + str(number) + "!")
     
